@@ -160,9 +160,9 @@ export function Footer({ settings }: FooterProps) {
           </div>
         </div>
 
-        <div className="mt-12 pt-6 border-t border-[#1E3354] grid grid-cols-1 lg:grid-cols-3 items-center gap-4 text-xs text-[#A3AEC2]">
+        <div className="mt-12 pt-6 border-t border-[#1E3354] flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-[#A3AEC2] relative">
           {/* Left: Developer Links */}
-          <div className="flex items-center justify-center lg:justify-start gap-3 order-2 lg:order-1">
+          <div className="flex items-center gap-2.5 z-10">
             <a
               href="https://www.linkedin.com/in/ritesh-pandey2024/"
               target="_blank"
@@ -172,7 +172,7 @@ export function Footer({ settings }: FooterProps) {
               <Linkedin className="w-3.5 h-3.5 shrink-0" />
               <span>Developer LinkedIn</span>
             </a>
-            <span className="text-[#3B4D68]" aria-hidden="true">·</span>
+            <span className="inline-block w-1 h-1 rounded-full bg-[#4A5D78] shrink-0" aria-hidden="true" />
             <a
               href="https://my-portfolio-mhmq.vercel.app/"
               target="_blank"
@@ -184,13 +184,13 @@ export function Footer({ settings }: FooterProps) {
             </a>
           </div>
 
-          {/* Center: Copyright Notice */}
-          <p className="text-center order-1 lg:order-2 whitespace-nowrap">
+          {/* Center: Copyright Notice (perfect center) */}
+          <p className="text-center whitespace-nowrap md:absolute md:left-1/2 md:-translate-x-1/2 text-[#A3AEC2]">
             &copy; Central Library Krishna Nagar. All Rights Reserved.
           </p>
 
           {/* Right: Privacy Policy & Terms and Conditions */}
-          <div className="flex items-center justify-center lg:justify-end gap-6 order-3 whitespace-nowrap">
+          <div className="flex items-center gap-6 whitespace-nowrap z-10">
             <Link to="/privacy" className="hover:text-white transition-colors">
               Privacy Policy
             </Link>
