@@ -1,0 +1,6 @@
+{
+  "name": "Central Library Krishna Nagar",
+  "description": "A dedicated, peaceful study library and member management platform in Krishna Nagar, Alambagh, Lucknow.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

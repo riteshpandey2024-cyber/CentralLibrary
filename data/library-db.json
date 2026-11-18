@@ -1,0 +1,906 @@
+{
+  "users": [
+    {
+      "id": "usr_65a4215b04b14d6d",
+      "fullName": "RITESH",
+      "email": "pandeyritesh@gmail.com",
+      "mobile": "4738937922",
+      "passwordHash": "2474d82a885bef31c9691c5aef8e7d70:e3bad54b9cb7703a4deb1d1698ca9efa6ab89c55d4471de29aaeda3ef0d919fb4b53ec8d766099ccd7dde8341d89dd7baa987057805d135aa6d0e711b765cd34",
+      "role": "member",
+      "accountStatus": "active",
+      "resetTokenHash": null,
+      "resetTokenExpiresAt": null,
+      "createdAt": "2026-11-17T20:49:22.983Z",
+      "updatedAt": "2026-11-17T20:55:07.201Z"
+    },
+    {
+      "id": "usr_c3030bea6d124da5",
+      "fullName": "SHUBH",
+      "email": "pandey2003@gmail.com",
+      "mobile": "9422322222",
+      "passwordHash": "2a065fc33869c51c4dbf0226cf767754:23f1e8433eba07853d827b4c9862912a97a5388baba155d0d2dab7e78c31d2cc5052a7f0d3d19b2e581af7d68d74241537b459fb5fe9d98a655919c8694b144b",
+      "role": "admin",
+      "accountStatus": "active",
+      "resetTokenHash": null,
+      "resetTokenExpiresAt": null,
+      "createdAt": "2026-11-17T20:52:55.546Z",
+      "updatedAt": "2026-11-17T20:52:55.546Z"
+    }
+  ],
+  "memberProfiles": [
+    {
+      "id": "prof_5966cd12c8cd446a",
+      "userId": "usr_65a4215b04b14d6d",
+      "category": "College Student",
+      "institutionName": "IIIT KOTTAYAM",
+      "courseOrExam": "B.TECH",
+      "address": "",
+      "preferredShift": "Full Day (7:00 AM – 10:00 PM)",
+      "createdAt": "2026-11-17T20:49:22.983Z",
+      "updatedAt": "2026-11-17T20:49:22.983Z"
+    }
+  ],
+  "registrationApplications": [
+    {
+      "id": "app_c43b1ddf53b947ba",
+      "userId": "usr_65a4215b04b14d6d",
+      "status": "approved",
+      "reviewNotes": "",
+      "reviewedBy": "usr_c3030bea6d124da5",
+      "reviewedAt": "2026-11-17T20:55:07.201Z",
+      "createdAt": "2026-11-17T20:49:22.983Z",
+      "updatedAt": "2026-11-17T20:55:07.201Z"
+    }
+  ],
+  "membershipPlans": [
+    {
+      "id": "plan_240ab4a6dd26419b",
+      "name": "Monthly Membership",
+      "durationDays": 30,
+      "durationLabel": "1 Month",
+      "priceInr": null,
+      "facilitiesIncluded": [
+        "Full access during operating hours (7:00 AM – 10:00 PM)",
+        "Dedicated study desk access",
+        "Drinking water and charging point access"
+      ],
+      "termsAndConditions": "Valid for 30 calendar days from activation. Subject to library silence and cleanliness guidelines.",
+      "description": "Flexible monthly study access for regular preparation and short-term examination sprints.",
+      "isAvailable": true,
+      "isActive": true,
+      "displayOrder": 1,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "plan_4c31fd455f9f4def",
+      "name": "Quarterly Membership",
+      "durationDays": 90,
+      "durationLabel": "3 Months",
+      "priceInr": null,
+      "facilitiesIncluded": [
+        "Full access during operating hours (7:00 AM – 10:00 PM)",
+        "Priority desk reservation eligibility",
+        "All confirmed study hall amenities"
+      ],
+      "termsAndConditions": "Valid for 90 calendar days from activation. Renewal requests may be submitted prior to expiry.",
+      "description": "Structured three-month plan suited for semester coursework and focused test series cycles.",
+      "isAvailable": true,
+      "isActive": true,
+      "displayOrder": 2,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "plan_8029ae3f03cf4563",
+      "name": "Half-Yearly Membership",
+      "durationDays": 180,
+      "durationLabel": "6 Months",
+      "priceInr": null,
+      "facilitiesIncluded": [
+        "Full access during operating hours (7:00 AM – 10:00 PM)",
+        "Seat reservation eligibility across study zones",
+        "All confirmed study hall amenities"
+      ],
+      "termsAndConditions": "Valid for 180 calendar days from activation. Non-transferable individual membership.",
+      "description": "Consistent six-month study commitment designed for competitive examination aspirants.",
+      "isAvailable": true,
+      "isActive": true,
+      "displayOrder": 3,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "plan_d8b5ae8ec2bf452f",
+      "name": "Annual Membership",
+      "durationDays": 365,
+      "durationLabel": "12 Months",
+      "priceInr": null,
+      "facilitiesIncluded": [
+        "Year-round access during operating hours (7:00 AM – 10:00 PM)",
+        "Full seat reservation access and priority renewals",
+        "All confirmed study hall amenities"
+      ],
+      "termsAndConditions": "Valid for 365 calendar days from activation. Governed by Central Library Krishna Nagar rules.",
+      "description": "Long-term academic membership for year-round preparation and uninterrupted daily routine.",
+      "isAvailable": true,
+      "isActive": true,
+      "displayOrder": 4,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    }
+  ],
+  "memberships": [
+    {
+      "id": "mem_3b5aaafafcbf4d6a",
+      "userId": "usr_65a4215b04b14d6d",
+      "planId": "plan_4c31fd455f9f4def",
+      "planNameSnapshot": "Quarterly Membership",
+      "status": "active",
+      "startDate": "2026-11-17T20:55:07.201Z",
+      "expiryDate": "2027-02-15T20:55:07.201Z",
+      "paymentStatus": "unpaid",
+      "renewalRequestedAt": null,
+      "renewalPlanId": null,
+      "createdAt": "2026-11-17T20:50:41.978Z",
+      "updatedAt": "2026-11-17T20:55:07.201Z"
+    },
+    {
+      "id": "mem_befa79e012a240c0",
+      "userId": "usr_65a4215b04b14d6d",
+      "planId": "plan_d8b5ae8ec2bf452f",
+      "planNameSnapshot": "Annual Membership",
+      "status": "pending",
+      "startDate": null,
+      "expiryDate": null,
+      "paymentStatus": "unpaid",
+      "renewalRequestedAt": null,
+      "renewalPlanId": null,
+      "createdAt": "2026-11-17T20:50:33.443Z",
+      "updatedAt": "2026-11-17T20:50:33.443Z"
+    },
+    {
+      "id": "mem_119d78df51da41d0",
+      "userId": "usr_65a4215b04b14d6d",
+      "planId": "plan_d8b5ae8ec2bf452f",
+      "planNameSnapshot": "Annual Membership",
+      "status": "pending",
+      "startDate": null,
+      "expiryDate": null,
+      "paymentStatus": "unpaid",
+      "renewalRequestedAt": null,
+      "renewalPlanId": null,
+      "createdAt": "2026-11-17T20:50:33.109Z",
+      "updatedAt": "2026-11-17T20:50:33.109Z"
+    },
+    {
+      "id": "mem_aab8cc4aa1834d88",
+      "userId": "usr_65a4215b04b14d6d",
+      "planId": "plan_4c31fd455f9f4def",
+      "planNameSnapshot": "Quarterly Membership",
+      "status": "pending",
+      "startDate": null,
+      "expiryDate": null,
+      "paymentStatus": "unpaid",
+      "renewalRequestedAt": null,
+      "renewalPlanId": null,
+      "createdAt": "2026-11-17T20:50:31.693Z",
+      "updatedAt": "2026-11-17T20:50:31.693Z"
+    },
+    {
+      "id": "mem_515551a11c774af5",
+      "userId": "usr_65a4215b04b14d6d",
+      "planId": "plan_4c31fd455f9f4def",
+      "planNameSnapshot": "Quarterly Membership",
+      "status": "pending",
+      "startDate": null,
+      "expiryDate": null,
+      "paymentStatus": "unpaid",
+      "renewalRequestedAt": null,
+      "renewalPlanId": null,
+      "createdAt": "2026-11-17T20:50:31.340Z",
+      "updatedAt": "2026-11-17T20:50:31.340Z"
+    },
+    {
+      "id": "mem_53c5f39388824df9",
+      "userId": "usr_65a4215b04b14d6d",
+      "planId": "plan_240ab4a6dd26419b",
+      "planNameSnapshot": "Monthly Membership",
+      "status": "pending",
+      "startDate": null,
+      "expiryDate": null,
+      "paymentStatus": "unpaid",
+      "renewalRequestedAt": null,
+      "renewalPlanId": null,
+      "createdAt": "2026-11-17T20:50:29.592Z",
+      "updatedAt": "2026-11-17T20:50:29.592Z"
+    },
+    {
+      "id": "mem_dd3768deb5684eff",
+      "userId": "usr_65a4215b04b14d6d",
+      "planId": "plan_240ab4a6dd26419b",
+      "planNameSnapshot": "Monthly Membership",
+      "status": "pending",
+      "startDate": null,
+      "expiryDate": null,
+      "paymentStatus": "unpaid",
+      "renewalRequestedAt": null,
+      "renewalPlanId": null,
+      "createdAt": "2026-11-17T20:50:28.392Z",
+      "updatedAt": "2026-11-17T20:50:28.392Z"
+    },
+    {
+      "id": "mem_0cfd120539814d02",
+      "userId": "usr_65a4215b04b14d6d",
+      "planId": "plan_4c31fd455f9f4def",
+      "planNameSnapshot": "Quarterly Membership",
+      "status": "pending",
+      "startDate": null,
+      "expiryDate": null,
+      "paymentStatus": "unpaid",
+      "renewalRequestedAt": null,
+      "renewalPlanId": null,
+      "createdAt": "2026-11-17T20:49:22.983Z",
+      "updatedAt": "2026-11-17T20:49:22.983Z"
+    }
+  ],
+  "seats": [
+    {
+      "id": "seat_adbf2a6fbeb14ed5",
+      "seatNumber": "A-01",
+      "rowLabel": "Row A",
+      "columnIndex": 1,
+      "category": "Silent Carrel",
+      "status": "active",
+      "notes": "",
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "seat_d6955c7678a947b3",
+      "seatNumber": "A-02",
+      "rowLabel": "Row A",
+      "columnIndex": 2,
+      "category": "Silent Carrel",
+      "status": "active",
+      "notes": "",
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "seat_f9afe64f6b90493b",
+      "seatNumber": "A-03",
+      "rowLabel": "Row A",
+      "columnIndex": 3,
+      "category": "Silent Carrel",
+      "status": "active",
+      "notes": "",
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "seat_6de8881d24d34323",
+      "seatNumber": "A-04",
+      "rowLabel": "Row A",
+      "columnIndex": 4,
+      "category": "Silent Carrel",
+      "status": "active",
+      "notes": "",
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "seat_118555ea202849a2",
+      "seatNumber": "B-01",
+      "rowLabel": "Row B",
+      "columnIndex": 1,
+      "category": "Window Desk",
+      "status": "active",
+      "notes": "",
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "seat_f9a348c148aa4559",
+      "seatNumber": "B-02",
+      "rowLabel": "Row B",
+      "columnIndex": 2,
+      "category": "Standard Desk",
+      "status": "active",
+      "notes": "",
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "seat_f1009abdef4a49c8",
+      "seatNumber": "B-03",
+      "rowLabel": "Row B",
+      "columnIndex": 3,
+      "category": "Standard Desk",
+      "status": "active",
+      "notes": "",
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "seat_a861eb73c6b0472a",
+      "seatNumber": "B-04",
+      "rowLabel": "Row B",
+      "columnIndex": 4,
+      "category": "Standard Desk",
+      "status": "active",
+      "notes": "",
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "seat_6eb4172ab9394c95",
+      "seatNumber": "C-01",
+      "rowLabel": "Row C",
+      "columnIndex": 1,
+      "category": "Window Desk",
+      "status": "active",
+      "notes": "",
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "seat_90cf94b97af944eb",
+      "seatNumber": "C-02",
+      "rowLabel": "Row C",
+      "columnIndex": 2,
+      "category": "Standard Desk",
+      "status": "active",
+      "notes": "",
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "seat_74ad3b9a78b045bb",
+      "seatNumber": "C-03",
+      "rowLabel": "Row C",
+      "columnIndex": 3,
+      "category": "Standard Desk",
+      "status": "active",
+      "notes": "",
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "seat_8d86951c0a2f45ca",
+      "seatNumber": "C-04",
+      "rowLabel": "Row C",
+      "columnIndex": 4,
+      "category": "Standard Desk",
+      "status": "active",
+      "notes": "",
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    }
+  ],
+  "seatReservations": [
+    {
+      "id": "res_9bf85f94319743ca",
+      "seatId": "seat_adbf2a6fbeb14ed5",
+      "seatNumberSnapshot": "A-01",
+      "userId": "usr_65a4215b04b14d6d",
+      "startDate": "2026-11-17",
+      "endDate": "2026-11-17",
+      "slotLabel": "7:00 AM – 10:00 PM",
+      "status": "active",
+      "assignedByAdmin": false,
+      "cancelledAt": null,
+      "cancellationReason": null,
+      "createdAt": "2026-11-17T20:55:57.781Z",
+      "updatedAt": "2026-11-17T20:55:57.781Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bkg_cbaa389a17db4bde",
+      "userId": "usr_65a4215b04b14d6d",
+      "membershipId": null,
+      "reservationId": "res_9bf85f94319743ca",
+      "bookingType": "seat",
+      "status": "confirmed",
+      "notes": "Reserved seat A-01 (2026-11-17 to 2026-11-17)",
+      "createdAt": "2026-11-17T20:55:57.781Z",
+      "updatedAt": "2026-11-17T20:55:57.781Z"
+    },
+    {
+      "id": "bkg_38e7088348e74f81",
+      "userId": "usr_65a4215b04b14d6d",
+      "membershipId": "mem_3b5aaafafcbf4d6a",
+      "reservationId": null,
+      "bookingType": "membership",
+      "status": "pending",
+      "notes": "Selected Quarterly Membership",
+      "createdAt": "2026-11-17T20:50:41.978Z",
+      "updatedAt": "2026-11-17T20:50:41.978Z"
+    },
+    {
+      "id": "bkg_8466ded4bc6f4d3e",
+      "userId": "usr_65a4215b04b14d6d",
+      "membershipId": "mem_befa79e012a240c0",
+      "reservationId": null,
+      "bookingType": "membership",
+      "status": "pending",
+      "notes": "Selected Annual Membership",
+      "createdAt": "2026-11-17T20:50:33.443Z",
+      "updatedAt": "2026-11-17T20:50:33.443Z"
+    },
+    {
+      "id": "bkg_ae123320a45c4026",
+      "userId": "usr_65a4215b04b14d6d",
+      "membershipId": "mem_119d78df51da41d0",
+      "reservationId": null,
+      "bookingType": "membership",
+      "status": "pending",
+      "notes": "Selected Annual Membership",
+      "createdAt": "2026-11-17T20:50:33.109Z",
+      "updatedAt": "2026-11-17T20:50:33.109Z"
+    },
+    {
+      "id": "bkg_417657a93b6b4916",
+      "userId": "usr_65a4215b04b14d6d",
+      "membershipId": "mem_aab8cc4aa1834d88",
+      "reservationId": null,
+      "bookingType": "membership",
+      "status": "pending",
+      "notes": "Selected Quarterly Membership",
+      "createdAt": "2026-11-17T20:50:31.693Z",
+      "updatedAt": "2026-11-17T20:50:31.693Z"
+    },
+    {
+      "id": "bkg_4351c734697147ea",
+      "userId": "usr_65a4215b04b14d6d",
+      "membershipId": "mem_515551a11c774af5",
+      "reservationId": null,
+      "bookingType": "membership",
+      "status": "pending",
+      "notes": "Selected Quarterly Membership",
+      "createdAt": "2026-11-17T20:50:31.340Z",
+      "updatedAt": "2026-11-17T20:50:31.340Z"
+    },
+    {
+      "id": "bkg_1b68c047371944f5",
+      "userId": "usr_65a4215b04b14d6d",
+      "membershipId": "mem_53c5f39388824df9",
+      "reservationId": null,
+      "bookingType": "membership",
+      "status": "pending",
+      "notes": "Selected Monthly Membership",
+      "createdAt": "2026-11-17T20:50:29.592Z",
+      "updatedAt": "2026-11-17T20:50:29.592Z"
+    },
+    {
+      "id": "bkg_09bb660a042646f5",
+      "userId": "usr_65a4215b04b14d6d",
+      "membershipId": "mem_dd3768deb5684eff",
+      "reservationId": null,
+      "bookingType": "membership",
+      "status": "pending",
+      "notes": "Selected Monthly Membership",
+      "createdAt": "2026-11-17T20:50:28.392Z",
+      "updatedAt": "2026-11-17T20:50:28.392Z"
+    },
+    {
+      "id": "bkg_2d93603c4f524af9",
+      "userId": "usr_65a4215b04b14d6d",
+      "membershipId": "mem_0cfd120539814d02",
+      "reservationId": null,
+      "bookingType": "membership",
+      "status": "pending",
+      "notes": "Initial registration with Quarterly Membership",
+      "createdAt": "2026-11-17T20:49:22.983Z",
+      "updatedAt": "2026-11-17T20:49:22.983Z"
+    }
+  ],
+  "payments": [],
+  "notifications": [
+    {
+      "id": "ntf_e58a7fa18a164062",
+      "isRead": false,
+      "createdAt": "2026-11-17T20:55:57.781Z",
+      "userId": "usr_65a4215b04b14d6d",
+      "title": "Seat Reservation Confirmed",
+      "message": "Seat A-01 (Silent Carrel) is reserved for you from 2026-11-17 to 2026-11-17.",
+      "type": "reservation",
+      "relatedEntityId": "res_9bf85f94319743ca"
+    },
+    {
+      "id": "ntf_bf19e34dbd0546b8",
+      "isRead": false,
+      "createdAt": "2026-11-17T20:55:07.201Z",
+      "userId": "usr_65a4215b04b14d6d",
+      "title": "Registration Approved",
+      "message": "Welcome to Central Library Krishna Nagar. Your registration has been approved.",
+      "type": "registration",
+      "relatedEntityId": "app_c43b1ddf53b947ba"
+    },
+    {
+      "id": "ntf_3396eb2c30fc464f",
+      "isRead": false,
+      "createdAt": "2026-11-17T20:50:41.978Z",
+      "userId": "usr_65a4215b04b14d6d",
+      "title": "Membership Plan Selected",
+      "message": "You selected Quarterly Membership. Complete payment or await administrator confirmation to activate.",
+      "type": "membership",
+      "relatedEntityId": "mem_3b5aaafafcbf4d6a"
+    },
+    {
+      "id": "ntf_7054318db9ce4f49",
+      "isRead": false,
+      "createdAt": "2026-11-17T20:50:33.443Z",
+      "userId": "usr_65a4215b04b14d6d",
+      "title": "Membership Plan Selected",
+      "message": "You selected Annual Membership. Complete payment or await administrator confirmation to activate.",
+      "type": "membership",
+      "relatedEntityId": "mem_befa79e012a240c0"
+    },
+    {
+      "id": "ntf_9c194709e2d1491b",
+      "isRead": false,
+      "createdAt": "2026-11-17T20:50:33.109Z",
+      "userId": "usr_65a4215b04b14d6d",
+      "title": "Membership Plan Selected",
+      "message": "You selected Annual Membership. Complete payment or await administrator confirmation to activate.",
+      "type": "membership",
+      "relatedEntityId": "mem_119d78df51da41d0"
+    },
+    {
+      "id": "ntf_73b198dffb4340b1",
+      "isRead": false,
+      "createdAt": "2026-11-17T20:50:31.693Z",
+      "userId": "usr_65a4215b04b14d6d",
+      "title": "Membership Plan Selected",
+      "message": "You selected Quarterly Membership. Complete payment or await administrator confirmation to activate.",
+      "type": "membership",
+      "relatedEntityId": "mem_aab8cc4aa1834d88"
+    },
+    {
+      "id": "ntf_319fe9a725e74cdc",
+      "isRead": false,
+      "createdAt": "2026-11-17T20:50:31.340Z",
+      "userId": "usr_65a4215b04b14d6d",
+      "title": "Membership Plan Selected",
+      "message": "You selected Quarterly Membership. Complete payment or await administrator confirmation to activate.",
+      "type": "membership",
+      "relatedEntityId": "mem_515551a11c774af5"
+    },
+    {
+      "id": "ntf_be65b10e840144cc",
+      "isRead": false,
+      "createdAt": "2026-11-17T20:50:29.593Z",
+      "userId": "usr_65a4215b04b14d6d",
+      "title": "Membership Plan Selected",
+      "message": "You selected Monthly Membership. Complete payment or await administrator confirmation to activate.",
+      "type": "membership",
+      "relatedEntityId": "mem_53c5f39388824df9"
+    },
+    {
+      "id": "ntf_2e1ad0b0a23e4bf9",
+      "isRead": false,
+      "createdAt": "2026-11-17T20:50:28.393Z",
+      "userId": "usr_65a4215b04b14d6d",
+      "title": "Membership Plan Selected",
+      "message": "You selected Monthly Membership. Complete payment or await administrator confirmation to activate.",
+      "type": "membership",
+      "relatedEntityId": "mem_dd3768deb5684eff"
+    },
+    {
+      "id": "ntf_d2775e119c1443f7",
+      "isRead": false,
+      "createdAt": "2026-11-17T20:49:23.038Z",
+      "userId": "usr_65a4215b04b14d6d",
+      "title": "Registration Received",
+      "message": "Your registration application for Central Library Krishna Nagar has been received and is pending administrator review.",
+      "type": "registration",
+      "relatedEntityId": "usr_65a4215b04b14d6d"
+    }
+  ],
+  "libraryAnnouncements": [],
+  "facilities": [
+    {
+      "id": "fac_e464578633b24b4a",
+      "title": "Comfortable Study Seating",
+      "description": "Ergonomic chairs designed to support long, uninterrupted hours of focused academic reading and writing.",
+      "iconName": "Armchair",
+      "isAvailable": true,
+      "displayOrder": 1,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "fac_f74752b8cd3c4cb0",
+      "title": "Dedicated Study Desks",
+      "description": "Spacious individual desks arranged to give every learner personal workspace and minimal visual distraction.",
+      "iconName": "BookOpen",
+      "isAvailable": true,
+      "displayOrder": 2,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "fac_014185e21e854acb",
+      "title": "Peaceful Study Environment",
+      "description": "A disciplined, quiet reading hall culture where every member respects shared concentration.",
+      "iconName": "VolumeX",
+      "isAvailable": true,
+      "displayOrder": 3,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "fac_5dacb410c9364939",
+      "title": "Proper Lighting",
+      "description": "Balanced ambient and desk illumination calibrated for eye comfort across morning and evening hours.",
+      "iconName": "Lightbulb",
+      "isAvailable": true,
+      "displayOrder": 4,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "fac_9197dda2aab74446",
+      "title": "Charging Facilities",
+      "description": "Accessible power sockets at study desks to keep laptops, tablets, and study devices powered throughout the day.",
+      "iconName": "Plug",
+      "isAvailable": true,
+      "displayOrder": 5,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "fac_f7a83d97ed9f433e",
+      "title": "Drinking Water",
+      "description": "Clean, accessible drinking water available on the premises so students can stay hydrated during study sessions.",
+      "iconName": "Droplets",
+      "isAvailable": true,
+      "displayOrder": 6,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "fac_8cead4166d4745bd",
+      "title": "Clean and Organized Premises",
+      "description": "Regularly maintained study halls, tidy desk rows, and neat common areas for a refreshing daily routine.",
+      "iconName": "Sparkles",
+      "isAvailable": true,
+      "displayOrder": 7,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "fac_c444ceb07f714529",
+      "title": "Security and Safety",
+      "description": "Well-supervised entry and orderly premises management ensuring a safe, welcoming environment for all learners.",
+      "iconName": "ShieldCheck",
+      "isAvailable": true,
+      "displayOrder": 8,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    }
+  ],
+  "galleryImages": [
+    {
+      "id": "gal_p1",
+      "title": "Study Cabin & Desks",
+      "caption": "Quiet study desks with dedicated task lighting and privacy partitions.",
+      "category": "Study Desks",
+      "imageUrl": "/src/assets/images/P1.jpg",
+      "displayOrder": 1,
+      "isVisible": true,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "gal_p2",
+      "title": "Main Reading Space",
+      "caption": "Organized reading hall with comfortable seating and quiet atmosphere.",
+      "category": "Reading Hall",
+      "imageUrl": "/src/assets/images/P2.jpg",
+      "displayOrder": 2,
+      "isVisible": true,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "gal_p3",
+      "title": "Quiet Focus Zone",
+      "caption": "Focused learning space free from distractions for competitive prep.",
+      "category": "Focus Zone",
+      "imageUrl": "/src/assets/images/P3.jpg",
+      "displayOrder": 3,
+      "isVisible": true,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "gal_p4",
+      "title": "Personal Workstations",
+      "caption": "Dedicated individual study desks with power access and clean surfaces.",
+      "category": "Study Desks",
+      "imageUrl": "/src/assets/images/P4.webp",
+      "displayOrder": 4,
+      "isVisible": true,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "gal_p5",
+      "title": "Reading Hall Corridor",
+      "caption": "Calm study aisle designed for long uninterrupted study sessions.",
+      "category": "Reading Hall",
+      "imageUrl": "/src/assets/images/P5.jpg",
+      "displayOrder": 5,
+      "isVisible": true,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "gal_p6",
+      "title": "Individual Study Pods",
+      "caption": "Ergonomically designed private seating for deep concentration.",
+      "category": "Focus Zone",
+      "imageUrl": "/src/assets/images/P6.jpg",
+      "displayOrder": 6,
+      "isVisible": true,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "gal_p7",
+      "title": "Clean Study Aisles",
+      "caption": "Neat study lanes with comfortable seating and balanced illumination.",
+      "category": "Study Desks",
+      "imageUrl": "/src/assets/images/P7.jpg",
+      "displayOrder": 7,
+      "isVisible": true,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "gal_p8",
+      "title": "Ergonomic Seating",
+      "caption": "Supportive chairs and well-proportioned tables for study comfort.",
+      "category": "Reading Hall",
+      "imageUrl": "/src/assets/images/P8.jpg",
+      "displayOrder": 8,
+      "isVisible": true,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "gal_p9",
+      "title": "Silent Preparation Zone",
+      "caption": "Strictly quiet hall supporting daily consistent preparation routines.",
+      "category": "Focus Zone",
+      "imageUrl": "/src/assets/images/P9.jpg",
+      "displayOrder": 9,
+      "isVisible": true,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "gal_p10",
+      "title": "Modern Study Facility",
+      "caption": "Well-maintained library premises equipped for modern academic needs.",
+      "category": "Reading Hall",
+      "imageUrl": "/src/assets/images/P10.jpg",
+      "displayOrder": 10,
+      "isVisible": true,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    }
+  ],
+  "libraryRules": [
+    {
+      "id": "rule_367afa00808c427d",
+      "title": "Maintain Strict Silence",
+      "description": "Preserve complete quiet inside the reading hall at all times. Discussions should be taken outside the study zone.",
+      "category": "Discipline",
+      "displayOrder": 1,
+      "isActive": true,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "rule_75c32905e9614565",
+      "title": "Keep Mobile Phones on Silent Mode",
+      "description": "Switch all mobile phones and devices to silent mode before entering. Attend calls strictly outside the reading room.",
+      "category": "Digital Etiquette",
+      "displayOrder": 2,
+      "isActive": true,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "rule_bf0c3bd6a89040af",
+      "title": "Respect Other Members",
+      "description": "Be courteous to fellow aspirants and students. Avoid reserving desks on behalf of others without a valid booking.",
+      "category": "Community",
+      "displayOrder": 3,
+      "isActive": true,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "rule_4a8f8e8310724317",
+      "title": "Keep the Study Area Clean",
+      "description": "Leave your desk neat after each session and dispose of waste in designated bins. Meals are not permitted at study desks.",
+      "category": "Cleanliness",
+      "displayOrder": 4,
+      "isActive": true,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "rule_7c933bf2435f4fd3",
+      "title": "Avoid Disturbing Other Learners",
+      "description": "Move chairs gently, use earphones at low volume so sound does not leak, and avoid unnecessary movement in aisles.",
+      "category": "Conduct",
+      "displayOrder": 5,
+      "isActive": true,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    },
+    {
+      "id": "rule_f710f97928b14acd",
+      "title": "Follow Membership and Booking Policies",
+      "description": "Carry valid membership confirmation, adhere to assigned seat reservations, and renew memberships promptly prior to expiry.",
+      "category": "Policies",
+      "displayOrder": 6,
+      "isActive": true,
+      "createdAt": "2026-11-17T19:52:22.247Z",
+      "updatedAt": "2026-11-17T19:52:22.247Z"
+    }
+  ],
+  "contactEnquiries": [],
+  "librarySettings": {
+    "libraryName": "Central Library Krishna Nagar",
+    "tagline": "A Better Space. A Better Focus. A Better Future.",
+    "address": "1 A, Gopal Nagar, Krishna Nagar, Alambagh, Lucknow, Uttar Pradesh – 226023, India",
+    "operatingHours": "7:00 AM – 10:00 PM",
+    "phone": "",
+    "email": "",
+    "googleMapsUrl": "https://maps.google.com/?q=1+A,+Gopal+Nagar,+Krishna+Nagar,+Alambagh,+Lucknow,+Uttar+Pradesh+226023",
+    "aboutHeading": "A Space Designed for Serious Learning",
+    "aboutBody": "Central Library Krishna Nagar provides a dedicated environment for students and independent learners who value concentration, consistency, and academic growth. Our aim is to make focused learning more comfortable, organized, and accessible.",
+    "aboutSecondaryBody": "Situated at 1 A, Gopal Nagar, Krishna Nagar, Alambagh, Lucknow, our premises are thoughtfully structured to replace household distractions with calm routine, proper study furniture, and daily discipline from 7:00 AM to 10:00 PM.",
+    "seatCancellationHoursNotice": 12,
+    "allowSelfSeatReservation": true,
+    "requireApprovalBeforeSeatBooking": true,
+    "socialLinks": {
+      "instagram": "",
+      "facebook": "",
+      "youtube": "",
+      "whatsapp": ""
+    },
+    "privacyPolicyText": "Central Library Krishna Nagar collects only the essential personal information required for member registration, seat reservation, payment receipts, and library communication (such as full name, mobile number, email address, and academic category). We do not request unnecessary sensitive identification numbers such as Aadhaar by default. Member records are used solely for library administration and are never sold or shared with third-party marketers.",
+    "termsText": "Membership at Central Library Krishna Nagar is personal and non-transferable. Members agree to maintain silence, keep mobile devices on silent mode, protect library furniture, and follow seat reservation and renewal policies. Operating hours are 7:00 AM – 10:00 PM unless notified otherwise through official library announcements. Management reserves the right to suspend accounts in case of repeated conduct violations.",
+    "updatedAt": "2026-11-17T19:52:22.247Z"
+  },
+  "auditLogs": [
+    {
+      "id": "aud_e8064cc07df14650",
+      "createdAt": "2026-11-17T20:55:07.202Z",
+      "actorUserId": "usr_c3030bea6d124da5",
+      "actorName": "SHUBH",
+      "action": "APPLICATION_APPROVED",
+      "targetType": "registration_application",
+      "targetId": "app_c43b1ddf53b947ba",
+      "details": "Application approved"
+    },
+    {
+      "id": "aud_a79b88b94c684a73",
+      "createdAt": "2026-11-17T20:52:55.612Z",
+      "actorUserId": "usr_c3030bea6d124da5",
+      "actorName": "SHUBH",
+      "action": "ADMIN_INITIALIZED",
+      "targetType": "user",
+      "targetId": "usr_c3030bea6d124da5",
+      "details": "Initial administrator account configured."
+    }
+  ]
+}
